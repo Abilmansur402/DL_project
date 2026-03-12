@@ -1,0 +1,145 @@
+{
+  "categories": [
+    {
+      "id": 0,
+      "name": "avocado"
+    },
+    {
+      "id": 1,
+      "name": "banana"
+    },
+    {
+      "id": 2,
+      "name": "basic_onion"
+    },
+    {
+      "id": 3,
+      "name": "beet"
+    },
+    {
+      "id": 4,
+      "name": "broccoli"
+    },
+    {
+      "id": 5,
+      "name": "carrot"
+    },
+    {
+      "id": 6,
+      "name": "coconut"
+    },
+    {
+      "id": 7,
+      "name": "cucumber"
+    },
+    {
+      "id": 8,
+      "name": "date_plum"
+    },
+    {
+      "id": 9,
+      "name": "grape"
+    },
+    {
+      "id": 10,
+      "name": "green_apple"
+    },
+    {
+      "id": 11,
+      "name": "green_pear"
+    },
+    {
+      "id": 12,
+      "name": "kiwi"
+    },
+    {
+      "id": 13,
+      "name": "lime"
+    },
+    {
+      "id": 14,
+      "name": "mandarin"
+    },
+    {
+      "id": 15,
+      "name": "orange_grapefruit"
+    },
+    {
+      "id": 16,
+      "name": "orange_lemons"
+    },
+    {
+      "id": 17,
+      "name": "persimmon"
+    },
+    {
+      "id": 18,
+      "name": "pineapple"
+    },
+    {
+      "id": 19,
+      "name": "pitahaya"
+    },
+    {
+      "id": 20,
+      "name": "pomegranate"
+    },
+    {
+      "id": 21,
+      "name": "potato"
+    },
+    {
+      "id": 22,
+      "name": "quince"
+    },
+    {
+      "id": 23,
+      "name": "red_apple"
+    },
+    {
+      "id": 24,
+      "name": "red_garlic"
+    },
+    {
+      "id": 25,
+      "name": "red_onion"
+    },
+    {
+      "id": 26,
+      "name": "red_pear"
+    },
+    {
+      "id": 27,
+      "name": "tomato"
+    },
+    {
+      "id": 28,
+      "name": "white_garlic"
+    },
+    {
+      "id": 29,
+      "name": "white_onion"
+    },
+    {
+      "id": 30,
+      "name": "white_pear"
+    },
+    {
+      "id": 31,
+      "name": "yellow_apple"
+    },
+    {
+      "id": 32,
+      "name": "yellow_grapefruit"
+    },
+    {
+      "id": 33,
+      "name": "yellow_lemons"
+    }
+  ],
+  "info": {
+    "year": 2026,
+    "version": "1.0",
+    "contributor": "Label Studio"
+  }
+}

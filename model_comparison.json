@@ -1,0 +1,27 @@
+{
+    "alexnet": {
+        "best_accuracy": 42.10526315789474,
+        "final_train_acc": 40.14705882352941,
+        "final_val_acc": 32.748538011695906
+    },
+    "resnet50": {
+        "best_accuracy": 92.39766081871345,
+        "final_train_acc": 98.23529411764706,
+        "final_val_acc": 92.39766081871345
+    },
+    "vgg16": {
+        "best_accuracy": 56.14035087719298,
+        "final_train_acc": 86.47058823529412,
+        "final_val_acc": 52.046783625730995
+    },
+    "googlenet": {
+        "best_accuracy": 92.98245614035088,
+        "final_train_acc": 98.67647058823529,
+        "final_val_acc": 91.81286549707602
+    },
+    "efficientnet": {
+        "best_accuracy": 94.73684210526316,
+        "final_train_acc": 97.6470588235294,
+        "final_val_acc": 93.5672514619883
+    }
+}
