@@ -18,21 +18,39 @@ from PIL import Image
 # =========================
 st.set_page_config(page_title="Fruit Classifier", page_icon="🍎", layout="wide")
 
-st.markdown('''<style>
+st.markdown("""
+<style>
+
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=DM+Sans:wght@400;500&display=swap");
-html,body,[class*="css"]{font-family:"DM Sans",sans-serif;background:#0e1a12;color:#e8f0e9}
-[data-testid="stAppViewContainer"]{background:linear-gradient(180deg,#0d1710 0%,#102015 100%)}
-[data-testid="stHeader"]{background:rgba(0,0,0,0)}
-[data-testid="stSidebar"]{background:linear-gradient(160deg,#0a1a0f,#142014);border-right:1px solid #2a4a2f}
-.stButton>button{background:linear-gradient(135deg,#2a7030,#3a9040)!important;color:#e0ffe0!important;border:none!important;border-radius:12px!important;font-size:1rem!important;font-weight:600!important}
-.stButton>button:hover{transform:translateY(-1px);box-shadow:0 8px 22px rgba(48,122,60,.25)}
-div[data-testid="stFileUploadDropzone"]{background:#162d1a!important;border:2px dashed #3a6040!important;border-radius:14px!important}
-[data-testid="stMetric"]{background:#162d1a;border:1px solid #2a4a2f;border-radius:14px;padding:12px}
-[data-testid="stMultiSelect"], [data-testid="stSelectbox"], [data-testid="stNumberInput"], [data-testid="stTextInput"]{color:#e8f0e9}
-.stProgress > div > div > div > div{background:linear-gradient(90deg,#5fbf66,#8ee28f)}
-.block-card{background:linear-gradient(135deg,#162d1a,#1d3122);border:1px solid #34553a;border-radius:18px;padding:1.2rem}
-.small-card{background:#162d1a;border:1px solid #2a4a2f;border-radius:12px;padding:.75rem;text-align:center}
-</style>''', unsafe_allow_html=True)
+
+html, body, [class*="css"] {
+    font-family: "DM Sans", sans-serif;
+    background: #f5f7f6;
+    color: #1c2b1f;
+}
+
+/* sidebar */
+[data-testid="stSidebar"]{
+    background: linear-gradient(160deg,#0a1a0f,#142014);
+    border-right:1px solid #2a4a2f;
+}
+
+/* upload box */
+div[data-testid="stFileUploadDropzone"]{
+    background:#ffffff;
+    border:2px dashed #9fbfa8;
+}
+
+/* result card */
+.result-card{
+    background:#ffffff;
+    border-radius:14px;
+    padding:25px;
+    border:1px solid #e5e7eb;
+}
+
+</style>
+""", unsafe_allow_html=True)
 
 # =========================
 # CONFIG
